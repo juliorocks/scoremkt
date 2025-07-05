@@ -1,4 +1,5 @@
 
+
 const Header = () => {
   const scrollToForm = () => {
     const formSection = document.getElementById('form-section');
@@ -11,9 +12,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-mind-blue rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">M</span>
-            </div>
+            <img 
+              src="https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?w=40&h=40&fit=crop&crop=center"
+              alt="MIND Logo"
+              className="w-10 h-10 rounded-lg object-cover"
+            />
             <div>
               <div className="text-xl font-bold text-mind-text">MIND</div>
               <div className="text-xs text-gray-500">mktscore.com.br</div>
@@ -34,3 +37,4 @@ const Header = () => {
 };
 
 export default Header;
+
