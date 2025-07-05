@@ -1,7 +1,6 @@
 
 import { Button } from "@/components/ui/button";
 import { Zap } from "lucide-react";
-import ScoreGauge from "./ScoreGauge";
 
 const HeroSection = () => {
   const scrollToForm = () => {
@@ -44,48 +43,13 @@ const HeroSection = () => {
             </Button>
           </div>
 
-          {/* Right Content - Score Gauge */}
+          {/* Right Content - Image */}
           <div className="relative animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            <div className="bg-white rounded-2xl p-8 shadow-2xl">
-              <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-mind-text mb-2">Score MKT</h3>
-                <p className="text-gray-600">Exemplo de resultado</p>
-              </div>
-              
-              <ScoreGauge score={87} size="lg" />
-              
-              <div className="mt-8 space-y-4">
-                <div className="flex items-center justify-between">
-                  <span className="text-mind-text">Presença Digital</span>
-                  <div className="flex items-center space-x-2">
-                    <div className="w-24 h-2 bg-gray-200 rounded">
-                      <div className="w-20 h-2 bg-mind-green rounded"></div>
-                    </div>
-                    <span className="text-sm font-medium">85%</span>
-                  </div>
-                </div>
-                
-                <div className="flex items-center justify-between">
-                  <span className="text-mind-text">Conversão</span>
-                  <div className="flex items-center space-x-2">
-                    <div className="w-24 h-2 bg-gray-200 rounded">
-                      <div className="w-16 h-2 bg-mind-blue rounded"></div>
-                    </div>
-                    <span className="text-sm font-medium">67%</span>
-                  </div>
-                </div>
-                
-                <div className="flex items-center justify-between">
-                  <span className="text-mind-text">Automação</span>
-                  <div className="flex items-center space-x-2">
-                    <div className="w-24 h-2 bg-gray-200 rounded">
-                      <div className="w-12 h-2 bg-orange-400 rounded"></div>
-                    </div>
-                    <span className="text-sm font-medium">45%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <img 
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&crop=center"
+              alt="Dashboard de análise de marketing e métricas de performance"
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
         </div>
       </div>
