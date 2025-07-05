@@ -20,6 +20,15 @@ const TargetAudienceSection = () => {
             </h2>
           </div>
 
+          {/* Person reflecting image */}
+          <div className="mb-16">
+            <img
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&h=400&fit=crop"
+              alt="Pessoa refletindo sobre decisões de marketing"
+              className="w-full h-64 object-cover rounded-2xl shadow-lg"
+            />
+          </div>
+
           <div className="grid md:grid-cols-2 gap-6">
             {targetPoints.map((point, index) => (
               <div 

@@ -43,6 +43,15 @@ const HowItWorksSection = () => {
           </p>
         </div>
 
+        {/* Team analyzing data image */}
+        <div className="mb-16">
+          <img
+            src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=1200&h=400&fit=crop"
+            alt="Equipe analisando dados de marketing"
+            className="w-full h-64 object-cover rounded-2xl shadow-lg"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
             <div 
