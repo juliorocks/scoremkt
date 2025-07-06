@@ -1,11 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { Zap } from "lucide-react";
-
 const FinalCTASection = () => {
   const handleStartDiagnosis = () => {
-    window.open('https://scoremkt.jhow.com.br/mind/', '_blank');
+    // Scroll to form section
+    const formSection = document.getElementById('form-section');
+    formSection?.scrollIntoView({
+      behavior: 'smooth'
+    });
   };
-  
   return <section className="bg-mind-dark py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center space-y-8">
@@ -45,5 +47,4 @@ const FinalCTASection = () => {
       </div>
     </section>;
 };
-
 export default FinalCTASection;

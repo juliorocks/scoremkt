@@ -1,6 +1,9 @@
 const Header = () => {
   const scrollToForm = () => {
-    window.open('https://scoremkt.jhow.com.br/mind/', '_blank');
+    const formSection = document.getElementById('form-section');
+    formSection?.scrollIntoView({
+      behavior: 'smooth'
+    });
   };
   return <header className="bg-white shadow-sm py-4 sticky top-0 z-50">
       <div className="container mx-auto px-4">

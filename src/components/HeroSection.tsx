@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Zap } from "lucide-react";
-
 const HeroSection = () => {
   const scrollToForm = () => {
-    window.open('https://scoremkt.jhow.com.br/mind/', '_blank');
+    const formSection = document.getElementById('form-section');
+    formSection?.scrollIntoView({
+      behavior: 'smooth'
+    });
   };
-  
   return <section className="bg-mind-dark min-h-screen flex items-center py-20">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -46,5 +47,4 @@ const HeroSection = () => {
       </div>
     </section>;
 };
-
 export default HeroSection;
