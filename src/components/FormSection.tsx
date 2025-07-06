@@ -1,15 +1,9 @@
-
 import { Button } from "@/components/ui/button";
 import { Zap } from "lucide-react";
 
 const FormSection = () => {
   const handleStartDiagnosis = () => {
-    // In a real implementation, this would open a form modal or redirect to Typeform/Tally
-    console.log("Starting MIND diagnosis...");
-    // Example: window.open('https://your-typeform-url', '_blank');
-    
-    // For now, we'll show an alert
-    alert("Formulário de diagnóstico seria aberto aqui (integração com Typeform/Tally)");
+    window.open('https://scoremkt.jhow.com.br/mind/', '_blank');
   };
 
   return (
