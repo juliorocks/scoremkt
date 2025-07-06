@@ -1,7 +1,6 @@
 
 import { Button } from "@/components/ui/button";
 import { Zap } from "lucide-react";
-import ScoreGauge from "./ScoreGauge";
 
 const FormSection = () => {
   const handleStartDiagnosis = () => {
@@ -59,7 +58,7 @@ const FormSection = () => {
               </p>
             </div>
 
-            {/* Right Content - Score Gauge Preview */}
+            {/* Right Content - Result Preview Image */}
             <div className="bg-white rounded-2xl p-8 shadow-2xl">
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-mind-text mb-2">
@@ -68,7 +67,11 @@ const FormSection = () => {
                 <p className="text-gray-600">Score MKT personalizado</p>
               </div>
               
-              <ScoreGauge score={74} size="md" />
+              <img 
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&crop=center"
+                alt="Dashboard mostrando resultados de análise de marketing e métricas de performance"
+                className="w-full h-auto rounded-xl shadow-lg"
+              />
               
               <div className="mt-6 text-center">
                 <p className="text-gray-600 text-sm">
