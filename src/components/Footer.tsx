@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
 
           {/* Domain */}
-          <div className="text-mind-blue font-semibold text-lg">scoremkt.com.br</div>
+          <div className="text-mind-blue font-semibold text-lg bg-[#00a19a] bg-[none]">scoremkt.com.br</div>
 
           {/* Divider */}
           <div className="border-t border-gray-600 pt-6">
