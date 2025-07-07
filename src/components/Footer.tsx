@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Divider */}
           <div className="border-t border-gray-600 pt-6">
             <div className="text-gray-400 text-sm">
-              <p>© 2025 MIND - Todos os direitos reservados</p>
+              <p>© 2025 Score MKT | MIND - Todos os direitos reservados</p>
               <p className="mt-2">
                 Transforme dados em decisões inteligentes de marketing
               </p>

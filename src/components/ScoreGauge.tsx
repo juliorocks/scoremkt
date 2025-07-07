@@ -28,7 +28,7 @@ const ScoreGauge = ({ score, size = "md", animated = true }: ScoreGaugeProps) =>
       return;
     }
 
-    const duration = 2000; // 2 seconds
+    const duration = 4000; // 4 seconds
     const increment = score / (duration / 50);
     let current = 0;
 
@@ -50,8 +50,8 @@ const ScoreGauge = ({ score, size = "md", animated = true }: ScoreGaugeProps) =>
   const needleRotation = angle - 90; // Adjust for starting position
 
   const getScoreColor = (score: number) => {
-    if (score >= 80) return "#00D887"; // Verde limão
-    if (score >= 60) return "#2EB3FF"; // Azul claro
+    if (score >= 85) return "#00D887"; // Verde limão
+    if (score >= 70) return "#2EB3FF"; // Azul claro
     if (score >= 40) return "#FFB800"; // Amarelo
     return "#FF6B6B"; // Vermelho
   };
