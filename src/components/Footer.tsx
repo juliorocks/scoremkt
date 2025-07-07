@@ -12,12 +12,12 @@ const Footer = () => {
           </div>
 
           {/* Domain */}
-          <div className="text-mind-blue font-semibold text-lg bg-[#00a19a] bg-[none]">scoremkt.com.br</div>
+          <div className="text-mind-blue font-semibold text-lg bg-[none] bg-[#00a19a]/0">scoremkt.com.br</div>
 
           {/* Divider */}
           <div className="border-t border-gray-600 pt-6">
             <div className="text-gray-400 text-sm">
-              <p>© 2025 MIND - Todos os direitos reservados</p>
+              <p>© 2025 Score MKT | MIND - Todos os direitos reservados</p>
               <p className="mt-2">
                 Transforme dados em decisões inteligentes de marketing
               </p>
