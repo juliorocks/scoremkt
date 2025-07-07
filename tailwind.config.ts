@@ -65,7 +65,7 @@ export default {
 				},
 				// MIND Brand Colors
 				'mind-dark': '#1C2C3A',
-				'mind-blue': '#2EB3FF',
+				'mind-blue': '#00A19A',
 				'mind-green': '#00D887',
 				'mind-gray': '#F4F4F4',
 				'mind-text': '#333333'
@@ -104,10 +104,10 @@ export default {
 				},
 				'pulse-glow': {
 					'0%, 100%': {
-						boxShadow: '0 0 20px rgba(46, 179, 255, 0.3)'
+						boxShadow: '0 0 20px rgba(0, 161, 154, 0.3)'
 					},
 					'50%': {
-						boxShadow: '0 0 30px rgba(46, 179, 255, 0.6)'
+						boxShadow: '0 0 30px rgba(0, 161, 154, 0.6)'
 					}
 				}
 			},
