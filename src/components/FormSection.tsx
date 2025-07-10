@@ -46,7 +46,7 @@ const FormSection = () => {
             </div>
 
             {/* Right Content - Result Preview Image */}
-            <div className="bg-white p-6 sm:p-8 rounded-2xl object-scale-down">
+            <div className="bg-white rounded-2xl object-scale-down">
               <div className="text-center mb-4 sm:mb-6">
                 <h3 className="text-xl sm:text-2xl font-bold text-mind-text mb-2">
                   Seu resultado será assim:
