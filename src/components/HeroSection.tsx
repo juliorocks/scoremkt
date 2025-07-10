@@ -1,14 +1,10 @@
-
 import { Button } from "@/components/ui/button";
 import { Zap } from "lucide-react";
-
 const HeroSection = () => {
   const scrollToForm = () => {
-    window.open('https://scoremkt.jhow.com.br/mind/', '_blank');
+    window.open('https://mktscore.com.br/mind', '_blank');
   };
-
-  return (
-    <section className="bg-mind-dark min-h-screen flex items-center py-12 sm:py-20 overflow-x-hidden">
+  return <section className="bg-mind-dark min-h-screen flex items-center py-10 sm:py-16 overflow-x-hidden">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           {/* Left Content */}
@@ -32,11 +28,7 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <Button 
-              onClick={scrollToForm} 
-              className="bg-mind-blue hover:bg-mind-blue/90 text-white px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105 animate-pulse-glow w-full sm:w-auto" 
-              size="lg"
-            >
+            <Button onClick={scrollToForm} className="bg-mind-blue hover:bg-mind-blue/90 text-white px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105 animate-pulse-glow w-full sm:w-auto" size="lg">
               <Zap className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
               Quero descobrir meu Score MKT agora
             </Button>
@@ -44,6 +36,7 @@ const HeroSection = () => {
 
           {/* Right Content - Image */}
           <div className="relative animate-fade-in-up" style={{
+<<<<<<< HEAD
             animationDelay: '0.3s'
           }}>
             <img 
@@ -51,11 +44,14 @@ const HeroSection = () => {
               alt="Dashboard de análise de marketing e métricas de performance" 
               className="w-full h-auto rounded-2xl" 
             />
+=======
+          animationDelay: '0.3s'
+        }}>
+            <img alt="Dashboard de análise de marketing e métricas de performance" src="https://mktscore.com.br/wp-content/uploads/2025/07/Ja-calculou-o-seu-Score-MKT-4.webp" className="w-full h-400 rounded-2xl object-contain " />
+>>>>>>> 8e1f589fd6f415c64b94a6490ee0eff83726d5da
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
