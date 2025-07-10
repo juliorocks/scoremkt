@@ -4,7 +4,7 @@ import { Zap } from "lucide-react";
 
 const FinalCTASection = () => {
   const handleStartDiagnosis = () => {
-    window.open('https://scoremkt.jhow.com.br/mind/', '_blank');
+    window.open('https://mktscore.com.br/mind', '_blank');
   };
 
   return (

@@ -1,6 +1,7 @@
+
 const Header = () => {
   const scrollToForm = () => {
-    window.open('https://scoremkt.jhow.com.br/mind/', '_blank');
+    window.open('https://mktscore.com.br/mind', '_blank');
   };
   return <header className="bg-white shadow-sm py-3 sm:py-4 sticky top-0 z-50">
       <div className="container mx-auto px-4">

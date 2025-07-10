@@ -4,7 +4,7 @@ import { Zap } from "lucide-react";
 
 const FormSection = () => {
   const handleStartDiagnosis = () => {
-    window.open('https://scoremkt.jhow.com.br/mind/', '_blank');
+    window.open('https://mktscore.com.br/mind', '_blank');
   };
 
   return (

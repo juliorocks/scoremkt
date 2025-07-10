@@ -1,8 +1,9 @@
+
 import { Button } from "@/components/ui/button";
 import { Zap } from "lucide-react";
 const HeroSection = () => {
   const scrollToForm = () => {
-    window.open('https://scoremkt.jhow.com.br/mind/', '_blank');
+    window.open('https://mktscore.com.br/mind', '_blank');
   };
   return <section className="bg-mind-dark min-h-screen flex items-center py-12 sm:py-20 overflow-x-hidden">
       <div className="container mx-auto px-4">
