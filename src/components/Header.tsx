@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2 sm:space-x-3">
-            <img alt="MIND Logo" className="w-auto h-8 sm:h-10" src="https://mktscore.com.br/wp-content/uploads/2025/07/MKT-Score-logo.webp" />
+            <img alt="MIND Logo" className="w-auto h-6 sm:h-10" src="https://mktscore.com.br/wp-content/uploads/2025/07/MKT-Score-logo.webp" />
           </div>
 
           {/* CTA Button */}
