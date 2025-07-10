@@ -27,11 +27,7 @@ const HowItWorksSection = () => {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-mind-text mb-4 sm:mb-6">
             O que é o MIND?
           </h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed px-4">
-            O MIND é um diagnóstico estratégico criado para empresários que querem entender, 
-            de forma objetiva e baseada em dados, onde seu marketing e vendas estão funcionando 
-            – e onde estão travando.
-          </p>
+          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed px-4">O MIND é um diagnóstico estratégico, mais aprofundado, feito após a etapa 1, criado para empresários que querem entender, de forma objetiva e baseada em dados, onde seu marketing e vendas estão funcionando – e onde estão travando.</p>
         </div>
 
         {/* Team analyzing data image */}
