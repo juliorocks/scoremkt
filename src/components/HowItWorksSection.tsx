@@ -36,7 +36,7 @@ const HowItWorksSection = () => {
 
         {/* Team analyzing data image */}
         <div className="mb-12 sm:mb-16 px-4">
-          <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=1200&h=400&fit=crop" alt="Equipe analisando dados de marketing" className="w-full h-48 sm:h-64 object-cover rounded-2xl shadow-lg" />
+          <img alt="Equipe analisando dados de marketing" className="w-full h-48 sm:h-64 object-cover rounded-2xl shadow-lg" src="https://mktscore.com.br/wp-content/uploads/2025/07/Ja-calculou-o-seu-Score-MKT-MIND.webp" />
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 px-4">
