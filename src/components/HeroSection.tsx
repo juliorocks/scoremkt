@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Zap } from "lucide-react";
 const HeroSection = () => {
@@ -39,7 +38,7 @@ const HeroSection = () => {
           <div className="relative animate-fade-in-up" style={{
           animationDelay: '0.3s'
         }}>
-            <img alt="Dashboard de análise de marketing e métricas de performance" src="https://mktscore.com.br/wp-content/uploads/2025/07/Ja-calculou-o-seu-Score-MKT-4.webp" className="w-full h-auto rounded-2xl shadow-2xl object-contain" />
+            <img alt="Dashboard de análise de marketing e métricas de performance" src="https://mktscore.com.br/wp-content/uploads/2025/07/Ja-calculou-o-seu-Score-MKT-4.webp" className="w-full h-auto rounded-2xl object-contain " />
           </div>
         </div>
       </div>
