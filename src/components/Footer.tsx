@@ -6,13 +6,13 @@ const Footer = () => {
           <div className="flex items-center justify-center space-x-3">
             
             <div>
-              <div className="text-2xl font-bold text-white">Score MKT | MIND</div>
+              <div className="text-2xl font-bold text-white">SCORE MKT | MIND</div>
               <div className="text-sm text-gray-400">Mapeamento Inteligente de Negócios e Diagnóstico</div>
             </div>
           </div>
 
           {/* Domain */}
-          <div className="text-mind-blue font-semibold text-lg">scoremkt.com.br</div>
+          <div className="text-mind-blue font-semibold text-lg bg-[none] bg-[#00a19a]/0">scoremkt.com.br</div>
 
           {/* Divider */}
           <div className="border-t border-gray-600 pt-6">

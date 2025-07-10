@@ -30,13 +30,13 @@ const HowItWorksSection = () => {
   ];
 
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-12 sm:py-20 overflow-x-hidden">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-mind-text mb-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-mind-text mb-4 sm:mb-6">
             O que é o MIND?
           </h2>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed px-4">
             O MIND é um diagnóstico estratégico criado para empresários que querem entender, 
             de forma objetiva e baseada em dados, onde seu marketing e vendas estão funcionando 
             – e onde estão travando.
@@ -44,35 +44,35 @@ const HowItWorksSection = () => {
         </div>
 
         {/* Team analyzing data image */}
-        <div className="mb-16">
+        <div className="mb-12 sm:mb-16 px-4">
           <img
-            src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=1200&h=400&fit=crop"
+            src="https://scoremkt.jhow.com.br/wp-content/uploads/2025/07/Ja-calculou-o-seu-Score-MKT-MIND.webp?w=1200&h=400&fit=crop"
             alt="Equipe analisando dados de marketing"
-            className="w-full h-64 object-cover rounded-2xl shadow-lg"
+            className="w-full h-48 sm:h-64 object-cover rounded-2xl "
           />
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 px-4">
           {steps.map((step, index) => (
             <div 
               key={index}
-              className="text-center space-y-6 p-6 rounded-2xl hover:bg-mind-gray/50 transition-all duration-300"
+              className="text-center space-y-4 sm:space-y-6 p-4 sm:p-6 rounded-2xl hover:bg-mind-gray/50 transition-all duration-300 border border-gray-200"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="relative">
-                <div className="w-20 h-20 bg-mind-blue rounded-full flex items-center justify-center mx-auto mb-4">
-                  <step.icon className="h-8 w-8 text-white" />
+                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-mind-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                  <step.icon className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
                 </div>
-                <div className="absolute -top-2 -right-2 w-8 h-8 bg-mind-green rounded-full flex items-center justify-center text-white font-bold text-sm">
+                <div className="absolute -top-2 -right-2 w-6 h-6 sm:w-8 sm:h-8 bg-gray-700 rounded-full flex items-center justify-center text-white font-bold text-xs sm:text-sm">
                   {step.number}
                 </div>
               </div>
               
-              <h3 className="text-xl font-bold text-mind-text">
+              <h3 className="text-lg sm:text-xl font-bold text-mind-text leading-tight">
                 {step.title}
               </h3>
               
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 {step.description}
               </p>
             </div>

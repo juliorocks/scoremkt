@@ -39,14 +39,7 @@ const BusinessBenefitsSection = () => {
           </h2>
         </div>
 
-        {/* Professional presenting results image */}
-        <div className="mb-16">
-          <img
-            src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&h=400&fit=crop"
-            alt="Profissional apresentando resultados de marketing"
-            className="w-full h-64 object-cover rounded-2xl shadow-lg"
-          />
-        </div>
+      
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
