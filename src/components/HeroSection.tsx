@@ -4,7 +4,7 @@ const HeroSection = () => {
   const scrollToForm = () => {
     window.open('https://mktscore.com.br/mind', '_blank');
   };
-  return <section className="bg-mind-dark min-h-screen flex items-center py-12 sm:py-20 overflow-x-hidden">
+  return <section className="bg-mind-dark min-h-screen flex items-center py-10 sm:py-16 overflow-x-hidden">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           {/* Left Content */}
