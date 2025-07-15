@@ -1,14 +1,10 @@
-
 import { Button } from "@/components/ui/button";
 import { Zap } from "lucide-react";
-
 const FormSection = () => {
   const handleStartDiagnosis = () => {
     window.open('https://mktscore.com.br/mind/', '_blank');
   };
-
-  return (
-    <section id="form-section" className="bg-mind-blue py-12 sm:py-20 overflow-x-hidden">
+  return <section id="form-section" className="bg-mind-blue py-12 sm:py-20 overflow-x-hidden">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
@@ -38,11 +34,7 @@ const FormSection = () => {
                   </div>
                 </div>
 
-                <Button 
-                  onClick={handleStartDiagnosis}
-                  className="bg-mind-green hover:bg-mind-green/90 text-white px-8 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-xl transition-all duration-300 hover:scale-105 animate-pulse-glow w-full"
-                  size="lg"
-                >
+                <Button onClick={handleStartDiagnosis} className="bg-mind-green hover:bg-mind-green/90 text-white px-8 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-xl transition-all duration-300 hover:scale-105 animate-pulse-glow w-full" size="lg">
                   <Zap className="mr-2 sm:mr-3 h-5 w-5 sm:h-6 sm:w-6" />
                   Quero meu MKT Score agora
                 </Button>
@@ -62,11 +54,7 @@ const FormSection = () => {
                 <p className="text-sm sm:text-base text-gray-600">MKT Score personalizado</p>
               </div>
               
-              <img 
-                src="https://scoremkt.jhow.com.br/wp-content/uploads/2025/07/score-mkt-resultado.png?w=600&h=400&fit=crop&crop=center"
-                alt="Dashboard mostrando resultados de análise de marketing e métricas de performance"
-                className="w-full h-auto rounded-xl shadow-lg"
-              />
+              <img alt="Dashboard mostrando resultados de análise de marketing e métricas de performance" className="w-full h-auto rounded-xl shadow-lg" src="/lovable-uploads/7c39362d-1b86-4eb4-b2cd-ce28deca7b6d.png" />
               
               <div className="mt-4 sm:mt-6 text-center">
                 <p className="text-gray-600 text-xs sm:text-sm">
@@ -77,8 +65,6 @@ const FormSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FormSection;
