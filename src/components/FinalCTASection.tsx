@@ -1,10 +1,14 @@
+
 import { Button } from "@/components/ui/button";
 import { Zap } from "lucide-react";
+
 const FinalCTASection = () => {
   const handleStartDiagnosis = () => {
-    window.open('https://mktscore.com.br/mind', '_blank');
+    window.open('https://scoremkt.jhow.com.br/mind/', '_blank');
   };
-  return <section className="bg-mind-dark py-12 sm:py-20 overflow-x-hidden">
+
+  return (
+    <section className="bg-mind-dark py-12 sm:py-20 overflow-x-hidden">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center space-y-6 sm:space-y-8">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
@@ -13,11 +17,17 @@ const FinalCTASection = () => {
             em marketing?
           </h2>
           
-          <p className="text-lg sm:text-xl text-gray-300 leading-relaxed px-4">Não deixe mais um dia passar sem saber onde investir seu orçamento de marketing. 
-Comece agora e tenha clareza em 5 minutos.</p>
+          <p className="text-lg sm:text-xl text-gray-300 leading-relaxed px-4">
+            Não deixe mais um dia passar sem saber onde investir seu orçamento de marketing. 
+            Comece agora e tenha clareza em 5 minutos.
+          </p>
 
           <div className="space-y-4 sm:space-y-6">
-            <Button onClick={handleStartDiagnosis} size="lg" className="bg-mind-blue hover:bg-mind-blue/90 text-white px-8 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-xl transition-all duration-300 hover:scale-105 animate-pulse-glow w-full sm:w-auto">
+            <Button 
+              onClick={handleStartDiagnosis} 
+              size="lg" 
+              className="bg-mind-blue hover:bg-mind-blue/90 text-white px-8 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-xl transition-all duration-300 hover:scale-105 animate-pulse-glow w-full sm:w-auto"
+            >
               <Zap className="mr-2 sm:mr-3 h-5 w-5 sm:h-6 sm:w-6" />
               Começar agora o diagnóstico MIND
             </Button>
@@ -39,6 +49,8 @@ Comece agora e tenha clareza em 5 minutos.</p>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default FinalCTASection;
