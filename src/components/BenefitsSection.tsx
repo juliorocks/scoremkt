@@ -1,17 +1,7 @@
-
 import { Check } from "lucide-react";
-
 const BenefitsSection = () => {
-  const benefits = [
-    "Seu Score de Marketing",
-    "Análise de maturidade digital", 
-    "Comparativo com empresas do seu setor",
-    "3 recomendações imediatas",
-    "Indicação personalizada de próximo passo"
-  ];
-
-  return (
-    <section className="bg-mind-gray py-20">
+  const benefits = ["Seu Score de Marketing", "Análise de maturidade digital", "Comparativo com empresas do seu setor", "3 recomendações imediatas", "Indicação personalizada de próximo passo"];
+  return <section className="bg-mind-gray py-20">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
@@ -21,19 +11,14 @@ const BenefitsSection = () => {
             </h2>
             
             <div className="space-y-4">
-              {benefits.map((benefit, index) => (
-                <div 
-                  key={index}
-                  className="flex items-center space-x-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300"
-                >
+              {benefits.map((benefit, index) => <div key={index} className="flex items-center space-x-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
                   <div className="w-8 h-8 bg-mind-green rounded-full flex items-center justify-center flex-shrink-0">
                     <Check className="h-5 w-5 text-white" />
                   </div>
                   <span className="text-lg font-semibold text-mind-text">
                     {benefit}
                   </span>
-                </div>
-              ))}
+                </div>)}
             </div>
           </div>
 
@@ -52,7 +37,7 @@ const BenefitsSection = () => {
                   <div className="bg-mind-gray p-4 rounded-lg">
                     <div className="flex justify-between items-center mb-2">
                       <span className="font-semibold text-mind-text">Score Geral</span>
-                      <span className="text-2xl font-bold text-mind-green">78/100</span>
+                      <span className="text-2xl font-bold text-mind-green">78/1000</span>
                     </div>
                     <div className="w-full h-2 bg-gray-200 rounded">
                       <div className="w-4/5 h-2 bg-mind-green rounded"></div>
@@ -82,8 +67,6 @@ const BenefitsSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default BenefitsSection;
