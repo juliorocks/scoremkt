@@ -1,3 +1,4 @@
+
 const Footer = () => {
   return <footer className="bg-mind-dark py-12">
       <div className="container mx-auto px-4">
@@ -6,18 +7,18 @@ const Footer = () => {
           <div className="flex items-center justify-center space-x-3">
             
             <div>
-              <div className="text-2xl font-bold text-white">SCORE MKT | MIND</div>
+              <div className="text-2xl font-bold text-white">MKT Score | MIND</div>
               <div className="text-sm text-gray-400">Mapeamento Inteligente de Negócios e Diagnóstico</div>
             </div>
           </div>
 
           {/* Domain */}
-          <div className="text-mind-blue font-semibold text-lg bg-[none] bg-[#00a19a]/0">scoremkt.com.br</div>
+          <div className="text-mind-blue font-semibold text-lg bg-[none] bg-[#00a19a]/0">mktscore.com.br</div>
 
           {/* Divider */}
           <div className="border-t border-gray-600 pt-6">
             <div className="text-gray-400 text-sm">
-              <p>© 2025 Score MKT | MIND - Todos os direitos reservados</p>
+              <p>© 2025 MKT Score | MIND - Todos os direitos reservados</p>
               <p className="mt-2">
                 Transforme dados em decisões inteligentes de marketing
               </p>

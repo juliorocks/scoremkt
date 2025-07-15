@@ -4,7 +4,7 @@ import { Zap } from "lucide-react";
 
 const FormSection = () => {
   const handleStartDiagnosis = () => {
-    window.open('https://scoremkt.jhow.com.br/mind/', '_blank');
+    window.open('https://mktscore.com.br/mind/', '_blank');
   };
 
   return (
@@ -15,7 +15,7 @@ const FormSection = () => {
             {/* Left Content */}
             <div className="text-center lg:text-left space-y-6 sm:space-y-8">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
-                Comece agora e descubra o seu Score MKT
+                Comece agora e descubra o seu MKT Score
               </h2>
               
               <p className="text-lg sm:text-xl text-blue-100 leading-relaxed">
@@ -33,7 +33,7 @@ const FormSection = () => {
                     <div className="text-sm sm:text-base text-blue-100">para completar</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl sm:text-3xl font-bold text-white">100%</div>
+                    <div className="text-2xl sm:text-3xl font-bold text-white">1000%</div>
                     <div className="text-sm sm:text-base text-blue-100">gratuito</div>
                   </div>
                 </div>
@@ -44,7 +44,7 @@ const FormSection = () => {
                   size="lg"
                 >
                   <Zap className="mr-2 sm:mr-3 h-5 w-5 sm:h-6 sm:w-6" />
-                  Quero meu Score agora
+                  Quero meu MKT Score agora
                 </Button>
               </div>
 
@@ -59,7 +59,7 @@ const FormSection = () => {
                 <h3 className="text-xl sm:text-2xl font-bold text-mind-text mb-2">
                   Seu resultado será assim:
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600">Score MKT personalizado</p>
+                <p className="text-sm sm:text-base text-gray-600">MKT Score personalizado</p>
               </div>
               
               <img 

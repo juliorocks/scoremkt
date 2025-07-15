@@ -4,7 +4,7 @@ import { Zap } from "lucide-react";
 
 const HeroSection = () => {
   const scrollToForm = () => {
-    window.open('https://scoremkt.jhow.com.br/mind/', '_blank');
+    window.open('https://mktscore.com.br/mind/', '_blank');
   };
 
   return (
@@ -16,7 +16,7 @@ const HeroSection = () => {
             <div className="space-y-4 sm:space-y-6">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
                 Descubra o{" "}
-                <span className="text-[#00A19A]">SCORE</span>{" "}
+                <span className="text-[#00A19A]">MKT SCORE</span>{" "}
                 de Marketing da sua empresa
               </h1>
               
@@ -38,7 +38,7 @@ const HeroSection = () => {
               size="lg"
             >
               <Zap className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-              Quero descobrir meu Score MKT agora
+              Quero descobrir meu MKT Score agora
             </Button>
           </div>
 

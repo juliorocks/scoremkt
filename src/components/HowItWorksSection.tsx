@@ -12,7 +12,7 @@ const HowItWorksSection = () => {
     {
       icon: BarChart,
       number: "2", 
-      title: "A gente calcula seu Score MKT (de 0 a 100)",
+      title: "A gente calcula seu MKT Score (de 0 a 1000)",
       description: "Algoritmo proprietário analisa suas respostas em tempo real"
     },
     {

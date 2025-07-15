@@ -46,13 +46,13 @@ const ScoreGauge = ({ score, size = "md", animated = true }: ScoreGaugeProps) =>
   }, [score, animated]);
 
   // Calculate angle based on score (180 degrees for semicircle)
-  const angle = (currentScore / 100) * 180;
+  const angle = (currentScore / 1000) * 180;
   const needleRotation = angle - 90; // Adjust for starting position
 
   const getScoreColor = (score: number) => {
-    if (score >= 85) return "#00D887"; // Verde limão
-    if (score >= 70) return "#2EB3FF"; // Azul claro
-    if (score >= 40) return "#FFB800"; // Amarelo
+    if (score >= 850) return "#00D887"; // Verde limão
+    if (score >= 700) return "#00A19A"; // Azul claro
+    if (score >= 400) return "#FFB800"; // Amarelo
     return "#FF6B6B"; // Vermelho
   };
 
@@ -80,7 +80,7 @@ const ScoreGauge = ({ score, size = "md", animated = true }: ScoreGaugeProps) =>
           strokeWidth="8"
           fill="none"
           strokeLinecap="round"
-          strokeDasharray={`${(currentScore / 100) * 251.3} 251.3`}
+          strokeDasharray={`${(currentScore / 1000) * 251.3} 251.3`}
           className="transition-all duration-100 ease-out"
         />
       </svg>
@@ -104,7 +104,7 @@ const ScoreGauge = ({ score, size = "md", animated = true }: ScoreGaugeProps) =>
         <div className={`${textSizes[size]} font-bold text-mind-text`}>
           {currentScore}
         </div>
-        <div className="text-sm text-gray-600">Score MKT</div>
+        <div className="text-sm text-gray-600">MKT Score</div>
       </div>
     </div>
   );

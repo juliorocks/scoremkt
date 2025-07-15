@@ -10,7 +10,7 @@ const FAQSection = () => {
   const faqs = [
     {
       question: "O diagnóstico MIND é realmente gratuito?",
-      answer: "Sim, completamente gratuito. Não há custos ocultos ou taxas. Você recebe seu Score MKT e relatório personalizado sem pagar nada. Nossa missão é ajudar empresários a tomar decisões mais inteligentes baseadas em dados."
+      answer: "Sim, completamente gratuito. Não há custos ocultos ou taxas. Você recebe seu MKT Score e relatório personalizado sem pagar nada. Nossa missão é ajudar empresários a tomar decisões mais inteligentes baseadas em dados."
     },
     {
       question: "Leva quanto tempo para preencher?",
@@ -21,7 +21,7 @@ const FAQSection = () => {
       answer: "Não há obrigatoriedade. Você recebe seu relatório completo por e-mail automaticamente. Se quiser, poderá solicitar uma consultoria para aprofundar os resultados, mas isso é totalmente opcional e por sua escolha."
     },
     {
-      question: "Como vocês calculam o Score MKT?",
+      question: "Como vocês calculam o MKT Score?",
       answer: "Utilizamos um algoritmo proprietário que avalia múltiplas dimensões do seu marketing: presença digital, estratégia de conteúdo, automação, conversão, métricas e muito mais. O score é comparado com benchmarks do seu setor."
     },
     {
